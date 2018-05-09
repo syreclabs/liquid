@@ -1,8 +1,9 @@
 package filters
 
 import (
-	"github.com/karlseguin/liquid/core"
 	"regexp"
+
+	"github.com/syreclabs/liquid/core"
 )
 
 var stripNewLines = &ReplacePattern{regexp.MustCompile("(\n|\r)"), ""}

@@ -1,10 +1,11 @@
 package filters
 
 import (
-	"github.com/karlseguin/gspec"
-	"github.com/karlseguin/liquid/core"
 	"strings"
 	"testing"
+
+	"github.com/karlseguin/gspec"
+	"github.com/syreclabs/liquid/core"
 )
 
 func TestTimesAnIntToAnInt(t *testing.T) {

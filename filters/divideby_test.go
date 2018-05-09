@@ -1,9 +1,10 @@
 package filters
 
 import (
-	"github.com/karlseguin/gspec"
-	"github.com/karlseguin/liquid/core"
 	"testing"
+
+	"github.com/karlseguin/gspec"
+	"github.com/syreclabs/liquid/core"
 )
 
 func TestDivideByAnIntToAnInt(t *testing.T) {

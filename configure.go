@@ -2,7 +2,7 @@ package liquid
 
 import (
 	"github.com/karlseguin/bytepool"
-	"github.com/karlseguin/liquid/core"
+	"github.com/syreclabs/liquid/core"
 )
 
 var (

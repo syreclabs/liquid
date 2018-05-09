@@ -1,8 +1,9 @@
 package filters
 
 import (
-	"github.com/karlseguin/liquid/core"
 	"strings"
+
+	"github.com/syreclabs/liquid/core"
 )
 
 var defaultSplit = (&SplitFilter{&core.StaticStringValue{" "}}).Split

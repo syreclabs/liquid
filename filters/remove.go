@@ -1,7 +1,7 @@
 package filters
 
 import (
-	"github.com/karlseguin/liquid/core"
+	"github.com/syreclabs/liquid/core"
 )
 
 func RemoveFactory(parameters []core.Value) core.Filter {

@@ -93,7 +93,11 @@ func indexedValue(container interface{}, index interface{}) interface{} {
 		}
 	} else if kind == reflect.Map {
 		indexValue := reflect.ValueOf(index)
-		return value.MapIndex(indexValue).Interface()
+		v := value.MapIndex(indexValue)
+		if v.IsValid() {
+			return v.Interface()
+		}
+		return nil
 	}
 	return nil
 }

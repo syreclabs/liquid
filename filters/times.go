@@ -1,8 +1,9 @@
 package filters
 
 import (
-	"github.com/karlseguin/liquid/core"
 	"strconv"
+
+	"github.com/syreclabs/liquid/core"
 )
 
 // Creates a time filter

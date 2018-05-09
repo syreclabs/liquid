@@ -1,8 +1,9 @@
 package tags
 
 import (
-	"github.com/karlseguin/liquid/core"
 	"io"
+
+	"github.com/syreclabs/liquid/core"
 )
 
 // Creates an assign tag

@@ -2,8 +2,9 @@ package filters
 
 import (
 	"bytes"
-	"github.com/karlseguin/liquid/core"
 	"strings"
+
+	"github.com/syreclabs/liquid/core"
 )
 
 func ReplaceFactory(parameters []core.Value) core.Filter {

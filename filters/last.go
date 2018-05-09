@@ -1,8 +1,9 @@
 package filters
 
 import (
-	"github.com/karlseguin/liquid/core"
 	"reflect"
+
+	"github.com/syreclabs/liquid/core"
 )
 
 // Creates a last filter

@@ -1,8 +1,9 @@
 package liquid
 
 import (
-	"github.com/karlseguin/liquid/core"
 	"io"
+
+	"github.com/syreclabs/liquid/core"
 )
 
 type Literal struct {

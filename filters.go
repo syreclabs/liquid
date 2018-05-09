@@ -1,8 +1,8 @@
 package liquid
 
 import (
-	"github.com/karlseguin/liquid/core"
-	"github.com/karlseguin/liquid/filters"
+	"github.com/syreclabs/liquid/core"
+	"github.com/syreclabs/liquid/filters"
 )
 
 func init() {

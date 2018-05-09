@@ -2,7 +2,8 @@ package filters
 
 import (
 	"bytes"
-	"github.com/karlseguin/liquid/core"
+
+	"github.com/syreclabs/liquid/core"
 )
 
 // Creates a capitalize filter
